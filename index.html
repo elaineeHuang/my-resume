@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<head>
+<body>
+<h1>Elaine Huang</h1>
+<h2>About me:</h2>
+<h3>I'm currently a full time analyst for anti money laundering at a bank, and learning JS on the side!</h3>
+<h3>You can get to know about me more on this site that I've made! No idea what am I doing!</h3>
+
+<button class="tablink" onclick="openTab('About', this, 'red')">About</button>
+<button class="tablink" onclick="openTab('Education', this, 'green')">Education</button>
+<button class="tablink" onclick="openTab('Work Experience', this, 'blue')">Work Experience</button>
+<button class="tablink" onclick="openTab('Contact', this, 'orange')">You wanna hire me?</button>
+
+<div id="About" class="tabcontent" style="display: none;">
+  <h3>About</h3>
+  <p>Elaine from Taiwan!</p>
+</div>
+
+<div id="Education" class="tabcontent" style="display: none;">
+  <h3>Education</h3>
+  <p>Northeastern University</p>
+</div>
+
+<div id="Work Experience" class="tabcontent" style="display: none;">
+  <h3>Work Experience</h3>
+  <p>Citi Bank Taiwan</p>
+</div>
+
+<div id="Contact" class="tabcontent" style="display: none;">
+  <h3>Contact</h3>
+  <p>+886 966-249-000</p>
+</div>
+
+<script>
+
+
+function openTab(pageName) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+// Show the specific tab content
+document.getElementById(pageName).style.display = "block";
+
+}
+
+</script>
+
+</body>
+
+</html>

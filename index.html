@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
+
 <head>
 <body>
 <h1>Elaine Huang</h1>
 <h2>About me:</h2>
 <h3>I'm currently a full time analyst for anti money laundering at a bank, and learning JS on the side!</h3>
-<h3>You can get to know about me more on this site that I've made! No idea what am I doing!</h3>
+<h3>Trying to make a resume as my first project! No idea what am I doing!</h3>
 
 <button class="tablink" onclick="openTab('About', this, 'red')">About</button>
 <button class="tablink" onclick="openTab('Education', this, 'green')">Education</button>
@@ -20,13 +20,37 @@
 </div>
 
 <div id="Education" class="tabcontent" style="display: none;">
-  <h3>Education</h3>
-  <p>Northeastern University</p>
+  <h3>Northeastern University</h3>
+  <p>D’Amore-McKim School of Business, Candidate for Bachelor of Science in Business Administration</p>
+  <p>Concentration: Finance</p>
+  <p>Activities: Study abroad in Italy; Language Speaking Partner Program; Women in Business</p>
+
+  <h3>China-Hong Kong English School</h3>
+  <p>Concentration: Business Administration</p>
+
 </div>
 
 <div id="Work Experience" class="tabcontent" style="display: none;">
-  <h3>Work Experience</h3>
-  <p>Citi Bank Taiwan</p>
+  <h3>Citi Bank Taiwan</h3>
+  <p>Compliance AML KYC Officer</p>
+  <ul>
+    <li>Taking ownership of the assigned projects independently, including external communication with clients, in-depth research on shareholding structures, document validation, complying with the latest global policy and local regulation.</li>
+    <li>Performing due diligence on client’s identification and ensuring data consistency from distributed sources under strict
+      deadlines.</li>
+    <li>Managingupto80clientsinbetweendifferentprojectssimultaneously,beingconstantlyavailabletorespondtosenior
+      management teams with the most updated status on individual cases.</li>
+    <li>Partnering with relationship managers and compliance officers for enhanced solutions on high risk subjects.</li>
+    <li>Cooperating with colleagues from worldwide to optimize working efficiency.</li>
+  </ul>
+  <p> </p>
+  <h3>East Coast Realty</h3>
+  <p>Real Estate Sales Agent</p>
+  <ul>
+    <li>Constructed required legal agreements under Massachusetts law and advised clients throughout the process.</li>
+    <li>Concentrated in property management, client development, public relations, communication in negotiation.</li>
+    <li>Advised and informed prospective clients on current market activities/conditions.</li>
+  </ul>
+
 </div>
 
 <div id="Contact" class="tabcontent" style="display: none;">
@@ -34,23 +58,7 @@
   <p>+886 966-249-000</p>
 </div>
 
-<script>
-
-
-function openTab(pageName) {
-  // Hide all elements with class="tabcontent" by default */
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-// Show the specific tab content
-document.getElementById(pageName).style.display = "block";
-
-}
-
-</script>
+<script src = "main.js"></script>
 
 </body>
 

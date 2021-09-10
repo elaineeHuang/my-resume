@@ -1,0 +1,133 @@
+/****************************************TAG****************************************/
+body {
+  margin:0;
+  font-family: 'Saira Condensed', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/****************************************CLASS****************************************/
+
+/*************************************LANDING PAGE************************************/
+.landingpage {
+  /* background-image: url('../img/landingpage.jpg'); */
+  background-color: #FDFCE5;
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
+
+.landingpage h1 {
+  margin: 0 auto 0 auto;
+  font-family: 'Lobster', cursive;
+  padding-top: 200px;
+  font-size: 60px;
+  color: #911F27;
+}
+
+.landingpage p {
+  font-family: 'Cairo', sans-serif;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 25px;
+  font-weight:bolder;
+  color: black;
+
+}
+
+/***************************************NAV BAR**************************************/
+.nav-flex-column {
+  background: #D7E9F7;
+  border-radius: 2%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  top: 25%;
+  left: 50px;
+  width: 112px;
+  height: 330px;
+  overflow-x: hidden;
+  padding: 10px;
+  z-index: 1;
+}
+
+/**************************************** PAGE LAYOUT****************************************/
+.container {
+  box-sizing: border-box;
+  padding: 60px 125px;
+  width: 1100px;
+}
+
+.page-title {
+  padding-bottom: 60px;
+}
+
+/**************************************** PROFILE PAGE ****************************************/
+.background_beige {
+  background: #F9F3DF;
+  display: block;
+}
+
+.profile-content-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.profile-padding {
+  padding: 15px;
+}
+
+/**************************************** EDUCATION PAGE ****************************************/
+.background_white {
+  background: #FDFCE5;
+  display: block;
+}
+
+.school {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.school-major {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.education-padding {
+  padding: 25px;
+}
+
+
+
+/*****************************************ID****************************************/
+#profile h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 47px;
+  text-align: center;
+  display: block;
+  color: #911F27;
+}
+
+#education h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 47px;
+  text-align: center;
+  display: block;
+  color: #911F27;
+}
+
+#work h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 47px;
+  text-align: center;
+  display: block;
+  color: #911F27;
+}
